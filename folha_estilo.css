@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
+
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One&display=swap");
+
+
+body{
+    font-family: monospace;
+    background-color: #fff2e6;
+    font-size: 14px;
+    height: 200px;
+    width: 1650px;
+}
+
+.tudo{
+    height: 200px;
+    width: 1650px;
+}
+
+header{
+    background-color: darksalmon;
+    text-align: center;
+    font-family: 'Shrikhand', cursive;
+}
+
+nav{
+   background-color: antiquewhite;
+    text-align: center;
+}
+
+article{
+    height: 575px;
+    width: 825px;
+    float: left;
+    margin-top: 40px;
+}
+
+aside{
+    height: 575px;
+    width: 825px;
+    float: left;
+    margin-top: 40px;
+}
+    
+footer{
+    height: auto;
+    width:1650px;
+    background-color:darksalmon;
+    text-align: center; 
+    bottom: 0;
+    height: 50px;
+    
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+header img{
+    width: 5%;
+    align-content: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+article h2{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  background-color: darksalmon;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 105px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: peachpuff;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: darksalmon;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 71.5px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: peachpuff;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.sobre{
+    font-family: 'Inconsolata', monospace;
+}
+
+.frame{
+    margin-left: 280px;
+    height: 2000px;
+    width: 3000px;
+    margin-top: 150px;
+}
+
+
+
+.galeria img{
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.galeria img:hover{
+    opacity: 0.6;
+}
+
+.galeria1 img{
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.galeria1 img:hover{
+    opacity: 0.6;
+}
+
+.footer ul{
+    margin-left: 500px;
+    margin-right: 300px;
+}
+
+.imgs{
+    margin-left: 500px;
+    margin-top: 80px;
+    height: 300px;
+    width: 600px;
+}
+
+.index{
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.contact-us {
+  background: #f8f4e5;
+  padding: 50px 100px;
+  border: 2px solid black;
+  box-shadow: 15px 15px 1px #ffa580, 15px 15px 1px 2px black;
+  width: 600px;
+  margin-top: 80px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  font-size: 14pt;
+  line-height: 28pt;
+  font-family: "Fjalla One";
+  margin-bottom: 28pt;
+  border: none;
+  border-bottom: 5px solid black;
+  background: #f8f4e5;
+  min-width: 250px;
+  padding-left: 5px;
+  outline: none;
+  color: black;
+}
+
+input:focus {
+  border-bottom: 5px solid darksalmon;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  line-height: 28pt;
+  padding: 0 20px;
+  background: darksalmon;
+  letter-spacing: 2px;
+  transition: 0.2s all ease-in-out;
+  outline: none;
+  border: 1px solid black;
+  box-shadow: 3px 3px 1px #95a4ff, 3px 3px 1px 1px black;
+}
+button:hover {
+  background: black;
+  color: white;
+  border: 1px solid black;
+}
+
+::selection {
+  background: #ffc8ff;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+  border-bottom: 5px solid #95a4ff;
+  -webkit-text-fill-color: #2A293E;
+  -webkit-box-shadow: 0 0 0px 1000px #f8f4e5 inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+table{
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+body {
+  font-family: "lato", sans-serif;
+}
+
+.container {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+h2 {
+  font-size: 26px;
+  margin: 20px 0;
+  text-align: center;
+}
+h2 small {
+  font-size: 0.5em;
+}
+
+.responsive-table li {
+  border-radius: 3px;
+  padding: 25px 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 55px;
+}
+.responsive-table .table-header {
+  background-color: #95A5A6;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+}
+
+.responsive-table .table-row {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+}
+
+.responsive-table .col-1 {
+  flex-basis: 10%;
+}
+.responsive-table .col-2 {
+  flex-basis: 60%;
+}
+.responsive-table .col-3 {
+  flex-basis: 5%;
+}
+
+@media all and (max-width: 767px) {
+  .responsive-table .table-header {
+    display: none;
+  }
+  .responsive-table li {
+    display: block;
+  }
+  .responsive-table .col {
+    flex-basis: 100%;
+  }
+  .responsive-table .col {
+    display: flex;
+    padding: 10px 0;
+  }
+  .responsive-table .col:before {
+    color: #6C7A89;
+    padding-right: 10px;
+    content: attr(data-label);
+    flex-basis: 50%;
+    text-align: right;
+  }
+}
+
+
+
+
+
+body{
+  background:#f1f1f1;
+  font-family: 'Inconsolata', monospace;
+  font-weight:bold;
+  color:black;
+  text-align:center;
+}
+.box-wrap{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin:%;
+}
+.box{
+  padding:30px;
+  margin:2%;
+  background:white;
+  width:30%;
+  border:1px solid darksalmon;
+  box-shadow:0 2px 3px 0px rgba(0,0,0,0.25);
+  border-radius:3px;
+  transition: 0.2s all; 
+}
+.box-wrap:hover .box{
+  filter:blur(3px);
+  opacity:.5;
+  transform: scale(.98);
+  box-shadow:none;
+}
+.box-wrap:hover .box:hover{
+  transform:scale(1);
+  filter:blur(0px);
+  opacity:1;
+  box-shadow:0 8px 20px 0px rgba(0,0,0,0.125);
+}
